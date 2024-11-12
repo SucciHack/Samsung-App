@@ -4,6 +4,9 @@
 @import "./partials/sectionGrid";
 @import "./partials/section-hero";
 @import "./partials/corousel";
+@import "./partials/_section-hero2";
+@import "./partials/section-hero3";
+@import "./partials/section-hero4";
 *{
     margin: 0;
     padding: 0;
@@ -12,9 +15,10 @@
 button{
     padding: 1rem 2rem;
     border-radius: 3rem;
-    margin: 1rem 8rem;
+    margin: 1rem 6rem;
     width: 50%;
     font-size: 1rem;
+    font-weight: bold;
 }
 p{
     font-family: Arial, Helvetica, sans-serif;

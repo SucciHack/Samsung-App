@@ -98,6 +98,104 @@ nav .lists i {
   font-size: 2rem;
 }
 
+.section-hero2 h2 {
+  padding: 2rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+.section-hero2 .rounded-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-hero2 .rounded-img .mid-img img {
+  width: 250px;
+  margin-bottom: 1rem;
+}
+.section-hero2 .rounded-img p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.section-hero3 {
+  background-color: #C5D7E3;
+  height: 100vh;
+  position: relative;
+}
+.section-hero3 h2 {
+  padding-top: 3rem;
+  font-size: 2rem;
+}
+.section-hero3 .links {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.8rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1rem 1rem;
+}
+.section-hero3 .links a {
+  text-decoration: none;
+  color: black;
+}
+.section-hero3 .links :hover {
+  border-bottom: 3px black solid;
+}
+.section-hero3 .img {
+  margin: 5rem 10%;
+}
+.section-hero3 .img img {
+  width: 300px;
+}
+.section-hero3 .bottom-text {
+  position: absolute;
+  bottom: 2rem;
+}
+.section-hero3 .bottom-text button {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+.section-hero3 .bottom-text .learn {
+  border-bottom: 4px black solid;
+  font-weight: bold;
+  width: 25%;
+  margin: 0 auto;
+}
+
+.section-hero4 {
+  background: url(../images/WhatsApp\ Image\ 2024-11-12\ at\ 7.15.24\ PM.jpeg);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  color: white;
+}
+.section-hero4 h2 {
+  padding-top: 1rem;
+}
+.section-hero4 .links {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.8rem;
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section-hero4 .links a {
+  text-decoration: none;
+  color: white;
+}
+.section-hero4 .links :hover {
+  border-bottom: 3px white solid;
+}
+.section-hero4 .save {
+  font-size: 2.1rem;
+}
+.section-hero4 .bottom-text {
+  position: absolute;
+  bottom: 5rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -107,9 +205,10 @@ nav .lists i {
 button {
   padding: 1rem 2rem;
   border-radius: 3rem;
-  margin: 1rem 8rem;
+  margin: 1rem 6rem;
   width: 50%;
   font-size: 1rem;
+  font-weight: bold;
 }
 
 p {

@@ -1,0 +1,23 @@
+.section-hero2{
+        & h2{
+            padding: 2rem;
+            margin-top: 1rem;
+            font-size: 2rem;
+        }
+    .rounded-img{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        .mid-img{
+            & img{
+                width: 250px;
+                margin-bottom: 1rem;
+            }
+        }
+        & p{
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+    }
+}
