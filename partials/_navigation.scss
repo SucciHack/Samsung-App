@@ -1,0 +1,16 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 1rem;
+    & img{
+        width: 9rem;
+    }
+    .lists{
+        & i{
+            font-size: 1.5rem;
+            margin-left: .5rem;
+            color: black;
+        }
+    }
+}

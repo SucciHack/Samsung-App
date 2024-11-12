@@ -1,0 +1,18 @@
+.bg{
+    .section-hero{
+        background: url(../images/bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 80vh;
+        color: white;
+        padding-top: 3rem;
+   & button{
+    display: flex;
+    align-items: center;
+    
+   }
+   & h2{
+    font-size: 2rem;
+   }
+    }
+}

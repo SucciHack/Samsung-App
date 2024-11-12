@@ -1,0 +1,27 @@
+@import "./partials/./fonts.scss";
+@import "./partials/navigation.scss";
+@import "./partials/hero";
+@import "./partials/sectionGrid";
+@import "./partials/section-hero";
+@import "./partials/corousel";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    margin: 1rem 8rem;
+    width: 50%;
+    font-size: 1rem;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+

@@ -1,0 +1,14 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 1rem;
+}
+nav img {
+  width: 9rem;
+}
+nav .lists i {
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  color: black;
+}/*# sourceMappingURL=navigation.css.map */
